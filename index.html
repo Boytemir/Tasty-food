@@ -4,9 +4,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TASTY FOOD</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+
+    <!-- Header Start -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Tasty</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                    <li><i class='bx bx-moon change-theme' id="theme-buttom"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__date">
+                    <h1 class="home__title">Tasty food</h1>
+                    <h2 class="home__subtitle">Try the best fo <br> the week.</h2>
+                    <a href="#" class="button">View Menu</a>
+                </div>
+
+                <img src="imgs/home.png" alt="home img" class="home__img">
+            </div>
+        </section>
+
+        <section class="about section bd-container" id="about">
+            <div class="about__container bd-grid">
+                <div class="about__date">
+                    <span class="section-subtitle about__initial">About us</span>
+                    <h2 class="section-title about__initial">We cook the best <br> tasty food </h2>
+                    <p class="about__description">We cook the best food in the entire city. with excellent customer service the best meals and at the best price. visit us.</p>
+                    <a href="#" class="button">Explore history</a>
+                </div>
+
+                <img src="imgs/about.jpg" alt="about img" class="about__img">
+            </div>
+        </section>
+
+        <section class="services section bd-container" id="services">
+            <span class="section-subtitle">Offering</span>
+            <h2 class="services__container">Our amazing services</h2>
+
+            <div class="services__content">
+                <img src="imgs/dish.svg" alt="">
+                <h3 class="services__tile">Excellent food</h3>
+                <p class="services__description">We offer our client quality services for many years with the and delicious food in the city</p>
+            </div>
+
+            <div class="services__content">
+                <img src="imgs/pizza.svg" alt="">
+                <h3 class="services__tile">Excellent food</h3>
+                <p class="services__description">We offer our client quality services for many years with the and delicious food in the city</p>
+            </div>
+
+            <div class="services__content">
+                <img src="imgs/truck.svg" alt="">
+                <h3 class="services__tile">Excellent food</h3>
+                <p class="services__description">We offer our client quality services for many years with the and delicious food in the city</p>
+            </div>
+        </section>
+
+        <section class="menu section bd-container" id="menu">
+            <span class="section-subtitle">Special</span>
+            <h2 class="services__container">Menu of the week</h2>
+
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="imgs/plate1.png" alt="img" class="menu__img">
+                    <h3 class="menu__name">Barbecue salad</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__prici">#22.00</span>
+                    <a href="#" class="button menu__button"><i class="bx bxs-cart"></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="imgs/plate1.png" alt="img" class="menu__img">
+                    <h3 class="menu__name">Barbecue salad</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__prici">#22.00</span>
+                    <a href="#" class="button menu__button"><i class="bx bxs-cart"></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="imgs/plate1.png" alt="img" class="menu__img">
+                    <h3 class="menu__name">Barbecue salad</h3>
+                    <span class="menu__detail">Delicious dish</span>
+                    <span class="menu__prici">#22.00</span>
+                    <a href="#" class="button menu__button"><i class="bx bxs-cart"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section></section>
+    </main>
     
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
